@@ -6,3 +6,10 @@ function sayHello() {
 
     alert(message);
 }
+
+function checkPassword(password) {
+    if (password == "admin123") {
+        return true;
+    }
+    return false;
+}
