@@ -8,7 +8,7 @@ function sayHello() {
 }
 
 function checkPassword(password) {
-    if (password == "admin123") {
+    if (password == "admin456") {
         return true;
     }
     return false;
