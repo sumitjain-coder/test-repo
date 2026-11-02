@@ -6,3 +6,9 @@ function sayHello() {
 
     alert(message);
 }
+function isAdmin(userRole) {
+    if (userRole == 1) {
+        return true;
+    }
+    return false;
+}
